@@ -6,8 +6,6 @@ What is the problem? And where is the challenge?
 
 In this project you can use get, post, put, delete project after registration,
 You can only get request 1k + data UNREGISTRATION
-I have created an api about restaurants which has about 1k fake data. 
-I generated the fake data on this site https://www.mockaroo.com/
 
 ## Description
 How have you solved the problem?
