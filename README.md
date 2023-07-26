@@ -30,17 +30,16 @@ You can check get, post, put, delete with Postman
 and perform CRUD operations
 
 Get All Data Postman:
-![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/4768a2c4-7fdd-4d7e-8261-39eba39dcfb0)
+![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/340877c8-73f0-487a-85d3-787eca9c7f53)
 
 Add Data Postman:
-![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/7dd815fa-f9e0-40bd-9dea-4ded14c89dae)
+![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/b3619934-b176-4067-b92d-29525ea03dd6)
 
 Update Data Postman:
-![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/8ed81ea0-2bb1-49bd-8c5a-14c1dacd2a73)
+![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/d2f2647f-2281-4ae1-a616-65f263e33f36)
 
 Delete data Postman: 
-![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/112820db-eece-4330-a969-38512d7262ba)
-
+![image](https://github.com/DiyorbekAnorboyev/API/assets/116994144/5c7a0f3d-7ec0-470d-b309-48bb0ed0e475)
 
 ### The Core Team
 
