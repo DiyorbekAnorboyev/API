@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const Restaurants = require("../model/Restaurants");
+const Phone = require("../model/Phone");
 const fs = require("fs");
 const router = Router();
 
@@ -10,12 +10,12 @@ router.get("/", (req, res) => {
   });                
 });
 
-router.get("/api/restaurant", async (req, res) => {
-  const data = await Restaurants.find();
+router.get("/api/phone", async (req, res) => {
+  const data = await Phone.find();
   res.send(data.reverse());
 });
 
-router.get("/api/restaurant/add", (req, res) => {
+router.get("/api/phone/add", (req, res) => {
   if(!req.cookies.token) {
     res.redirect('/')
     return

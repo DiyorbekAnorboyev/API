@@ -1,9 +1,9 @@
 const { Router } = require('express')
-const Restaurants = require("../model/Restaurants");
+const Phone = require("../model/Phone");
 const router = Router()
 
 router.delete("/api/restaurant/:id", async(req, res) => {
-    await Restaurants.findByIdAndDelete(req.params.id)
+    await Phone.findByIdAndDelete(req.params.id)
     res.send({msg: "Success deleted"})
   })
 

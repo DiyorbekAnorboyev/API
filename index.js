@@ -21,14 +21,14 @@ mongoose.connect(mongoUrl, { useNewUrlParser: true, })
 app.get("*", require('./controller/get_data'));     
 
 // Create
-app.post("/api/restaurant/add", require('./controller/post_data'));
+app.post("/api/phone/add", require('./controller/post_data'));
 app.post("/register", require('./controller/post_data'));
 
 //Update
-app.put('/api/restaurant/:id', require('./controller/put_data'))
+app.put('/api/phone/:id', require('./controller/put_data'))
 
 // Delete
-app.delete("/api/restaurant/:id", require('./controller/delete_data'))
+app.delete("/api/phone/:id", require('./controller/delete_data'))
 
 app.listen(process.env.PORT, () => {
   console.log(`Server started on port ${process.env.PORT}`);
